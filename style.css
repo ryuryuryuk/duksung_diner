@@ -4,7 +4,7 @@ body {
     display: flex; 
     flex-direction: column;
     align-items: center; /* 가운데 정렬 */
-    font-family: 'NanumSquareRound', sans-serif; /* 폰트 바꾸기  */
+    font-family: 'NanumSquareRound', sans-serif; /* 폰트 바꾸기.. 하고 싶은데 적용이 안 되네 */
 }
 
 
@@ -31,24 +31,38 @@ h2 {
     padding: 10px;
 }
 
+/* 페이지 목차 */
+nav{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+    display: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+/* 페이지 목차 글자들 줄간격 늘리기 */
+nav li {
+    margin-bottom: 12px; 
+}
+
 
 main.layout {
     display: flex;
-    flex-direction: row;
-    gap: 40px; /* nav와 section 사이의 간격  */
-    border-radius: 20%; /* 테두리 둥글둥글 */ 
+    flex-direction: row; /*row로 해서 가로로 배치하기*/
+    gap: 40px; /* nav와 aside와 section 사이의 간격  */
     margin-bottom: 30px; /* 아래 section과의 간격 */
 }
 
-nav {
+aside {
     width: 20%;
     background-color: floralwhite;
     font-size: 18px;
     padding: 20px;
+    border-radius: 10px; /* 테두리 둥글둥글 */ 
 }
 
 /* 맛집 목록들 폰트 사이가 너무 가까워서 좀 늘리기 */
-nav li {
+aside li {
     margin-bottom: 12px; 
 }
 
@@ -63,6 +77,12 @@ article{
 
 }
 
+article p{
+    padding:10px;
+}
+article div{
+    padding:10px;
+}
 article h2 {
     font-size: 20px;
 }
@@ -75,9 +95,10 @@ article span {
 }
 
 
+
 table {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 table th, table td {
     padding: 5px;
@@ -89,11 +110,11 @@ table th {
 }
 /* 표에 마우스 올리면 컬러가 칠해지도록 */
 table tr:hover {
-    background-color: floralwhite;
+    background-color:bisque;
 }
 
 
-
+/* 가운데에 고정시키고 위 아래 마진 30씩 주기*/
 footer{
     text-align: center;
     font-size: 15px;

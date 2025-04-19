@@ -10,9 +10,35 @@
             <h1>덕성여자대학교 맛집</h1>
         </header>
 
-        <!-- nav를 왼쪽, article을 오른쪽에 배치하기 위해 "layout" 클래스로 묶었습니다 -->
-        <main class="layout"> 
+
+        <!-- 페이지목차, 개요, 맛집목록을 보기좋게 배치하기 위해 "layout0" 클래스로 묶었습니다 -->
+        <main class="layout0">
         <nav>
+            <h2>페이지 목차</h2>
+            <ul>
+                <li><a href="#overview">페이지 개요</a></li>
+                <li><a href="#restList">덕성여대 맛집 목록</a></li>
+                <li><a href="#restDetails">맛집 상세 정보</a></li>
+            </ul>
+        </nav>
+        <!-- article(개요,)을 왼쪽, aside(맛집목록)을 오른쪽에 배치하기 위해 "layout" 클래스로 묶었습니다 -->
+        <main class="layout"> 
+        <article>
+            <h2 id="overview"><b>개요</b></h2>
+            <p>덕성여자대학교는 <mark>서울 도봉구 삼양로 144길 33</mark>에 있습니다.<br>
+                주변에 맛있는 음식점이 널려있습니다.<br>
+            학교 주변 맛있는 곳들을 소개할게요!</p>
+        
+
+            <h2 id="restList"><b>덕성여대 맛집 목록</b> (from.<a href="https://www.diningcode.com/" target="_blank">다이닝코드</a>)</h2>
+            <p> hello! 음식점 소개.<br> 
+                학교 주변에 다양한 음식점들이 있습니다.<br>
+            <div>오른쪽의 맛집 리스트는 다이닝코드에서 <span>덕성여대 맛집</span>으로 검색한 210곳에서 뽑았습니다.</div>
+            </p>
+        </article>
+        
+        <!-- 맛집리스트 -->
+        <aside>
             <ol type="1">
                 <li><a href="pages/misung.html">미성반점</a></li>
                 <li><a href="pages/yuki.html">유키가후루</a></li>
@@ -21,24 +47,12 @@
                 <li><a href="pages/boong.html">붕자네</a></li>
                 <li><a href="pages/eeeyo.html">eeeyo 이요</a></li>
             </ol>
-        </nav>
-        
-        <article>
-            <h2><b>개요</b></h2>
-            <p>덕성여자대학교는 <mark>서울 도봉구 삼양로 144길 33</mark>에 있습니다.<br>
-            학교 주변 맛있는 곳들을 소개할게요!</p>
-        
-
-            <h2><b>맛집 목록</b> (from.<a href="https://www.diningcode.com/" target="_blank">다이닝코드</a>)</h2>
-            <p> hello! 음식점 소개.<br> 
-                학교 주변에 다양한 음식점들이 있습니다.<br>
-            <div>왼쪽의 맛집 리스트는 다이닝코드에서 <span>덕성여대 맛집</span>으로 검색한 210곳에서 뽑았습니다.</div>
-            </p>
-        </article>
+        </aside>
         </main>
+    </main>
         
         <article>
-            <h2>맛집 상세 정보</h2>
+            <h2 id="restDetails">맛집 상세 정보</h2>
             <table border="1">
             <tr>
                 <thead>
@@ -98,6 +112,7 @@
             </table>
         </article>
 
+        <!-- 이름, 간단한 페이지 설명, 이메일 -->
         <footer>
             <p>Copyright 2025 Gabin Ryu  |  덕성여자대학교 맛집 정보  |  binnxr@naver.com  </p>
         </footer>
