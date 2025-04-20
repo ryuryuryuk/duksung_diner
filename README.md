@@ -19,7 +19,6 @@ HTML과 CSS만으로 구현된 정적인 페이지입니다.
 
 duksung_diner/ <br>
 ├── index.html # 메인 홈 페이지 (맛집 리스트 테이블) <br>
-├── form.html # 설문 폼 페이지 <br>
 ├── style.css # 전체 사이트 스타일 시트 <br>
 ├── pages/ # 개별 맛집 소개 페이지 폴더 <br>
 │ ├── eeeyo.html <br>
@@ -41,7 +40,6 @@ duksung_diner/ <br>
 - 덕성여대 주변 맛집 리스트 테이블 제공
 - 맛집 클릭 시 상세 소개 페이지로 이동
 - 이미지와 간단한 설명 포함
-- 설문 Webform 페이지
 
 <br>
 
