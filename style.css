@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex; 
+    display: flex; /* 이거 안 쓰면 배치가 엉망..*/
     flex-direction: column;
     align-items: center; /* 가운데 정렬 */
     font-family: 'NanumSquareRound', sans-serif; /* 폰트 바꾸기.. 하고 싶은데 적용이 안 되네 */
