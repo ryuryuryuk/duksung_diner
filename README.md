@@ -1,5 +1,5 @@
 >  본 프로젝트는 인기초04 과제 목적으로 제작되었습니다.
-
+<br>
 # 🍽️ 덕성여자대학교 맛집 소개 프로젝트
 
 덕성여자대학교 주변의 숨은 맛집들을 소개하는 웹사이트입니다.  
@@ -31,7 +31,7 @@ duksung_diner/ <br>
 │ ├── noodles.webp <br>
 │ ├── yuki.webp <br>
 │ └── duksung_symbol.png <br>
-└── README.md 
+└── README.md
 
 <br>
 
